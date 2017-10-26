@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// untuk menampilkan bintang (*) sebagai hiasan pada program
+
 void bintang() {
 
     cout << "\t";
@@ -14,6 +16,8 @@ void bintang() {
     cout << endl;
 }
 
+// untuk menampilkan menu biaya operasi pada program
+
 void namaOperasi() {
 
     cout << endl;
@@ -23,10 +27,14 @@ void namaOperasi() {
     cout << endl;
 }
 
+// untuk meminta user menginputkan pilihan
+
 void inputkanKode() {
 
     cout << "\t\tMasukkan Pilihan Anda : ";
 }
+
+// untuk menampilkan menu jenis penyakit mata
 
 void jenisPenyakitMata() {
 
@@ -38,10 +46,14 @@ void jenisPenyakitMata() {
     cout << endl;
 }
 
+// untuk meminta user menginputkan pilihan jenis penyakit mata
+
 void inputkanPenyakitMata() {
 
     cout << "\t\tMasukkan Jenis Penyakit Mata : ";
 }
+
+// untuk menampilkan menu jenis penyakit jantung
 
 void jenisPenyakitJantung() {
 
@@ -53,10 +65,14 @@ void jenisPenyakitJantung() {
     cout << endl;
 }
 
+// untuk meminta user menginputkan pilihan jenis penyakit jantung
+
 void inputkanPenyakitJantung() {
 
     cout << "\t\tMasukkan Jenis Penyakit Jantung : ";
 }
+
+// kode program
 
 int main() {
 
@@ -67,6 +83,8 @@ int main() {
 
     inputkanKode();
     cin >> kodePilihan;
+
+    // percabangan
 
     if(kodePilihan == 1) {
 
@@ -139,4 +157,3 @@ int main() {
 
     return 0;
 }
-
