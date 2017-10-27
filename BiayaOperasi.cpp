@@ -21,7 +21,7 @@ void bintang() {
 void namaOperasi() {
 
     cout << endl;
-    cout << "\t\t<< MENU MENGHITUNG BIAYA OPERAASI >>" << endl << endl;
+    cout << "\t\t<< MENU MENGHITUNG BIAYA OPERASI >>" << endl << endl;
     cout << "\t\t1. Menghitung Baiaya Operasi Mata" << endl;
     cout << "\t\t2. Menghitung Biaya Operasi Jantung" << endl;
     cout << endl;
@@ -115,6 +115,13 @@ int main() {
                 cout << "\t\tBiaya Operasi Mata Silinder = Rp. 4.000.000" << endl << endl;
                 bintang();
                 break;
+
+            default:
+
+                cout << endl;
+                cout << "\t\tKode salah!" << endl << endl;
+                bintang();
+                break;
         }
 
     } else if(kodePilihan == 2) {
@@ -144,6 +151,13 @@ int main() {
 
                 cout << endl;
                 cout << "\t\tBiaya Operasi Otot Jantung = Rp. 450.000.000" << endl << endl;
+                bintang();
+                break;
+
+            default:
+
+                cout << endl;
+                cout << "\t\tKode salah!" << endl << endl;
                 bintang();
                 break;
         }
