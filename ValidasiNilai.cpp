@@ -14,9 +14,9 @@ int main() {
     cout << "Masukkan bilangan pembagi\t\t: ";
     cin >> nilai2;
 
-    hasil = nilai1 / nilai2;
+    if(nilai1 != 0 || nilai2 != 0) {
 
-    if((nilai1 / nilai2) == hasil) {
+         hasil = nilai1 / nilai2;
 
         cout << setiosflags(ios::fixed) << endl;
         cout << setprecision(2) << "Hasil bagi\t\t\t\t: " << hasil << endl;
@@ -24,7 +24,7 @@ int main() {
     } else {
 
         cout << endl;
-        cout << "\t\tError!" << endl;
+        cout << "Hasil bagi\t\t\t\t: Tidak ada" << endl;
     }
 
     return 0;
