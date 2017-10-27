@@ -20,8 +20,12 @@ int main() {
 
         cout << setiosflags(ios::fixed) << endl;
         cout << setprecision(2) << "Hasil bagi\t\t\t\t: " << hasil << endl;
+
+    } else {
+
+        cout << endl;
+        cout << "\t\tError!" << endl;
     }
 
     return 0;
 }
-
