@@ -9,7 +9,7 @@ int main() {
     cout << "Masukkan bilangan : ";
     cin >> a;
 
-    cout << a << "! = ";
+    cout << "Hasil : ";
 
     for(int x = a; x > 0; x--) {
 
